@@ -5,7 +5,6 @@ Generation: 1<br>
 Version: 0.0.0<br>
 Glossary: 2026-09<br>
 Condition: draft<br>
-<br>
 Author:<br>
 Last updated:<br>
 Repository:<br>
