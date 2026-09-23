@@ -1,113 +1,119 @@
-# shell-a1
-
-**Class:** arm &nbsp;•&nbsp; **Generation:** 1 &nbsp;•&nbsp; **Version:** 0.0.0 &nbsp;•&nbsp; **Glossary:** 2026-09 &nbsp;•&nbsp; **Condition:** draft
-
-**Author:** &nbsp;•&nbsp; **Last updated:** &nbsp;•&nbsp; **Repository:**
-
----
-
-## Identity
-
-**Role** — what it does. One sentence.
-**Environment** — indoor, outdoor, hazardous, space, aquatic, etc.
-**Mission** — inspection, manipulation, transport, exploration, interaction, etc.
-**Operator** — who controls it. Single operator, supervised, autonomous.
-**Reusability** — one-off, repeatable build, production candidate.
+shell-a1<br>
+<br>
+Class: arm<br>
+Generation: 1<br>
+Version: 0.0.0<br>
+Glossary: 2026-09<br>
+Condition: draft<br>
+<br>
+Author:<br>
+Last updated:<br>
+Repository:<br>
 
 ---
 
-## Spec
-
-**Physical** — mass, footprint, height, center of mass, material.
-**Kinematic** — DOF, reach, joint limits, max joint velocity.
-**Dynamic** — payload, top speed, acceleration, repeatability, accuracy.
-**Power** — voltage, capacity (Wh), runtime, charge time, peak draw.
-**Thermal** — operating temperature, storage temperature, cooling method.
-**Environmental** — IP rating, humidity, vibration tolerance, shock tolerance.
-
----
-
-## Frame
-
-**Bill of materials** — every part, quantity, source, cost, lead time, Hardware link.
-**Structure** — frame material, manufacturing method, tolerances.
-**Actuation** — motors, gearboxes, drivers, transmission.
-**Locomotion** — wheels, legs, tracks, propellers, or fixed base.
-**Manipulation** — arms, hands, grippers, end effectors.
-**Power system** — battery, BMS, converters, distribution.
-**Wiring** — harness, routing, connectors, strain relief.
-**Custom parts** — CAD files, print files, CNC files, drawings.
-**Fasteners** — screws, bolts, inserts, adhesives.
-**Tools required** — for assembly and maintenance.
+## Identity<br>
+<br>
+Role — what it does. One sentence.<br>
+Environment — indoor, outdoor, hazardous, space, aquatic, etc.<br>
+Mission — inspection, manipulation, transport, exploration, interaction, etc.<br>
+Operator — who controls it. Single operator, supervised, autonomous.<br>
+Reusability — one-off, repeatable build, production candidate.<br>
 
 ---
 
-## Systems
-
-**Manifest** — every package, version, source, license, Software link.
-**Firmware** — bootloader, motor firmware, sensor firmware.
-**Middleware** — ROS version, RMW, message definitions.
-**Perception** — cameras, LiDAR, IMU, fusion stack.
-**Control** — low-level loop, controllers, gains.
-**Planning** — path, trajectory, task planners.
-**Learning** — policy architecture, training framework, dataset format.
-**Teleoperation** — input device, mapping, feedback.
-**Safety** — limits, watchdogs, e-stop, fail-safe behavior.
-**Logging** — format, rate, storage, synchronization.
-**Networking** — Wi-Fi, 5G, VPN, remote access.
-**Config files** — link to each.
-**Launch files** — link to each.
-**Dependencies** — external libraries, drivers, toolchains.
+## Spec<br>
+<br>
+Physical — mass, footprint, height, center of mass, material.<br>
+Kinematic — DOF, reach, joint limits, max joint velocity.<br>
+Dynamic — payload, top speed, acceleration, repeatability, accuracy.<br>
+Power — voltage, capacity (Wh), runtime, charge time, peak draw.<br>
+Thermal — operating temperature, storage temperature, cooling method.<br>
+Environmental — IP rating, humidity, vibration tolerance, shock tolerance.<br>
 
 ---
 
-## Interface
-
-**Emits** — topics, message types, rates.
-**Accepts** — topics, message types, rates.
-**Serves** — services, request/response types.
-**Executes** — actions, goal/feedback/result types.
-**Extensions** — namespaced additions beyond the standard contract.
-**Frame conventions** — TF tree, base frame, sensor frames.
-**Units** — SI, radians, meters, seconds.
-
----
-
-## Model
-
-**URDF / Xacro** — link.
-**SDF** — link, if used for simulation.
-**Calibration** — encoder offsets, IMU bias, camera intrinsics/extrinsics, joint zeros. Date performed.
-**Dynamics** — masses, inertias, friction, damping, identified actuator gains.
-**Sensor transforms** — mount positions and orientations.
-**Collision geometry** — simplified shapes, margins.
-**Visual geometry** — meshes, textures.
+## Frame<br>
+<br>
+Bill of materials — every part, quantity, source, cost, lead time, Hardware link.<br>
+Structure — frame material, manufacturing method, tolerances.<br>
+Actuation — motors, gearboxes, drivers, transmission.<br>
+Locomotion — wheels, legs, tracks, propellers, or fixed base.<br>
+Manipulation — arms, hands, grippers, end effectors.<br>
+Power system — battery, BMS, converters, distribution.<br>
+Wiring — harness, routing, connectors, strain relief.<br>
+Custom parts — CAD files, print files, CNC files, drawings.<br>
+Fasteners — screws, bolts, inserts, adhesives.<br>
+Tools required — for assembly and maintenance.<br>
 
 ---
 
-## Trials
-
-**Bench** — motor tests, sensor tests, power tests. Pass/fail, measured values, date.
-**Integration** — middleware bring-up, teleop latency, logging integrity. Pass/fail, measured values, date.
-**Field** — task performance, failure modes, safety validation. Pass/fail, measured values, date.
-**Endurance** — continuous run duration, degradation observed.
-**Environmental** — tested temperature, humidity, vibration, shock.
-**Known limitations** — what it cannot do yet.
-
----
-
-## Log
-
-**Build history** — dated entries, what changed, why.
-**Open issues** — links, priority, status.
-**Changelog** — version bumps, what triggered each.
-**Lessons learned** — what would be done differently.
-**Cost actual** — final spend vs. BOM estimate.
+## Systems<br>
+<br>
+Manifest — every package, version, source, license, Software link.<br>
+Firmware — bootloader, motor firmware, sensor firmware.<br>
+Middleware — ROS version, RMW, message definitions.<br>
+Perception — cameras, LiDAR, IMU, fusion stack.<br>
+Control — low-level loop, controllers, gains.<br>
+Planning — path, trajectory, task planners.<br>
+Learning — policy architecture, training framework, dataset format.<br>
+Teleoperation — input device, mapping, feedback.<br>
+Safety — limits, watchdogs, e-stop, fail-safe behavior.<br>
+Logging — format, rate, storage, synchronization.<br>
+Networking — Wi-Fi, 5G, VPN, remote access.<br>
+Config files — link to each.<br>
+Launch files — link to each.<br>
+Dependencies — external libraries, drivers, toolchains.<br>
 
 ---
 
-## Status
+## Interface<br>
+<br>
+Emits — topics, message types, rates.<br>
+Accepts — topics, message types, rates.<br>
+Serves — services, request/response types.<br>
+Executes — actions, goal/feedback/result types.<br>
+Extensions — namespaced additions beyond the standard contract.<br>
+Frame conventions — TF tree, base frame, sensor frames.<br>
+Units — SI, radians, meters, seconds.<br>
 
-**Condition** — draft, building, operational, learning, autonomous, deprecated.
-**Blockers** — what is preventing progress.
-**Next steps** — what happens next on this Shell.
+---
+
+## Model<br>
+<br>
+URDF / Xacro — link.<br>
+SDF — link, if used for simulation.<br>
+Calibration — encoder offsets, IMU bias, camera intrinsics/extrinsics, joint zeros. Date performed.<br>
+Dynamics — masses, inertias, friction, damping, identified actuator gains.<br>
+Sensor transforms — mount positions and orientations.<br>
+Collision geometry — simplified shapes, margins.<br>
+Visual geometry — meshes, textures.<br>
+
+---
+
+## Trials<br>
+<br>
+Bench — motor tests, sensor tests, power tests. Pass/fail, measured values, date.<br>
+Integration — middleware bring-up, teleop latency, logging integrity. Pass/fail, measured values, date.<br>
+Field — task performance, failure modes, safety validation. Pass/fail, measured values, date.<br>
+Endurance — continuous run duration, degradation observed.<br>
+Environmental — tested temperature, humidity, vibration, shock.<br>
+Known limitations — what it cannot do yet.<br>
+
+---
+
+## Log<br>
+<br>
+Build history — dated entries, what changed, why.<br>
+Open issues — links, priority, status.<br>
+Changelog — version bumps, what triggered each.<br>
+Lessons learned — what would be done differently.<br>
+Cost actual — final spend vs. BOM estimate.<br>
+
+---
+
+## Status<br>
+<br>
+Condition — draft, building, operational, learning, autonomous, deprecated.<br>
+Blockers — what is preventing progress.<br>
+Next steps — what happens next on this Shell.<br>
