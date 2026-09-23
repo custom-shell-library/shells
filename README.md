@@ -1,6 +1,6 @@
 ## Shell-a1<br>
 <br>
-Class: arm<br>
+Class: example<br>
 Generation: 1<br>
 Version: 0.0.0<br>
 Glossary: 2026-09<br>
