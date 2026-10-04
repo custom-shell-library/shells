@@ -195,5 +195,3 @@
 **Next steps** — Payload configuration selection based on mission profile. Operator training and certification. Integration with FlightHub 2 for fleet operations.
 
 ---
-
-**Note on this Shell:** The DJI Matrice 400 is a commercial, closed-platform system. Unlike the other Shells in this repo, it cannot be built from a BOM or modified at the firmware level. This Shell exists as a reference for what a fully integrated, production-grade enterprise platform looks like — the capabilities, specifications, and integration depth that a custom build would need to match.
